@@ -1,0 +1,312 @@
+* {
+    /*background-color: rgba(0, 0, 0, .1);*/
+}
+
+body {
+    width: 100%;
+    min-width: 1250px;
+    line-height: 1.8;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c9141d;
+    transition: color .1s;
+}
+
+ion-icon {
+    font-size: 24px;
+}
+
+.header {
+    background-color: #222222;
+    height: 30px;
+}
+
+.container {
+    display: block;
+    max-width: 1200px;
+!important;
+    margin: 0 auto;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.header a {
+    color: #a3a3a3;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.header a:hover {
+    color: #ffffff;
+    transition: color .3s;
+}
+
+.logo {
+    margin-top: -30px;
+    height: 95px;
+    width: 145px;
+}
+
+.search-bar {
+    margin-top: 20px;
+    margin-left: 240px;
+    width: 550px;
+    height: 40px;
+}
+
+.search-bar input,
+.search-bar button {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fdd000;
+}
+
+.search-bar input {
+    width: 450px;
+    height: 20px;
+}
+
+.search-bar button {
+    width: 78px;
+    height: 42px;
+    background-color: #fdd000;
+}
+
+.extends {
+    display: none;
+}
+
+.nav a {
+    margin-right: 20px;
+}
+
+.lg-ad {
+    width: 1200px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.lg-ad a {
+    display: inline-block;
+    height: 100px;
+}
+
+.main {
+    width: 1200px;
+    margin-top: 20px;
+}
+
+.main-left {
+    width: 320px;
+}
+
+.main-right {
+    width: 520px;
+    margin-left: 30px;
+}
+
+.sidebar-right {
+    width: 300px;
+}
+
+.sm-cover {
+    display: inline-block;
+}
+
+.sm-cover p {
+    margin-top: -5px;
+}
+
+.news-list {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.news-list-item {
+    display: block;
+    line-height: 1.8;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.news-list-item:before {
+    content: '•';
+    margin-right: 10px;
+    color: #cccccc;
+}
+
+.news-list-item:first-child {
+    font-weight: bold;
+}
+
+.hot-news {
+    width: 268px;
+    background-color: #f9f9f9;
+    padding: 16px;
+}
+
+.hot-item {
+    font-size: 14px;
+}
+
+.label:before {
+    content: '';
+    display: inline-block;
+    float: left;
+    width: 4px;
+    height: 16px;
+    overflow: hidden;
+    margin: 6px 5px 0 0;
+    border-radius: 2px;
+    background: #fdd000
+}
+
+.hot-item li {
+    margin-left: -14px;
+}
+
+.sm-ad {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.cate {
+    width: 870px;
+    margin-bottom: 30px;
+}
+
+.section {
+    width: 410px;
+    height: 428px;
+    margin-bottom: 20px;
+}
+
+.section .title {
+    background: #f9f9f9;
+    border-top: 2px solid #fdd000;
+    height: 30px;
+    line-height: 30px;
+    padding: 10px 0 10px 20px;
+}
+
+.section .title a {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.news-pic {
+    padding: 14px;
+    background-color: #f9f9f9;
+}
+
+.news-pic-item {
+    width: 182px;
+}
+
+.news-pic-item a {
+    display: block;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.news-pic-item p {
+    margin-top: -5px;
+}
+
+.section .news-list {
+    margin-top: 10px;
+}
+
+.card {
+    border: 1px solid #f9f9f9;
+    border-radius: 1px;
+    box-shadow: 0 0 1px 1px #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-size: 20px;
+    text-align: center;
+}
+
+.cart-body {
+    padding: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.contact-box .item {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.contact {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.contact ion-icon {
+    font-size: 16px;
+}
+
+.md-ad {
+    margin-bottom: 20px;
+}
+
+.links {
+    margin-bottom: 30px;
+    border: 1px solid #eeeeee;
+}
+
+.links .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 10px 0 10px;
+    padding: 10px;
+}
+
+.links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #222222;
+    height: 50px;
+}
